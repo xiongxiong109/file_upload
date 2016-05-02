@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Error</title>
+</head>
+<body>
+	<h3>{{message}}</h3>
+	{{#if error.message}}
+	<p>{{error.message}}</p>
+	{{else}}
+	<p>{{error}}</p>
+	{{/if}}
+</body>
+</html>
